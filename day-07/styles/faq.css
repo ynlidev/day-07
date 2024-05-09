@@ -169,6 +169,32 @@ a.site-name {
   padding: 0 1rem;
 }
 
+section::after {
+  content: "";
+  width: 20rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  background-color: #ffc9b4;
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  right: 0;
+}
+
+section::before {
+  content: "\2225";
+  font-size: 3rem;
+  text-align: center;
+  color: #ffc9b4;
+  position: absolute;
+  bottom: -4rem;
+  left: 0;
+  right: 0;
+}
+section {
+  position: relative;
+  margin-bottom: 4rem;
+}
 section h2 {
   margin: 0;
   padding: 0.5em 0;

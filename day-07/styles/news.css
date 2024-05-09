@@ -275,7 +275,7 @@ article footer {
 
 .external-link::after {
   content: url(../images/icon-external-link.png);
-  margin-left: 0.25rem;
+  margin-left: 0.3rem;
   vertical-align: middle;
 }
 

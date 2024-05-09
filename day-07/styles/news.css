@@ -273,6 +273,12 @@ article footer {
   margin: 0 0 1rem 1rem;
 }
 
+.external-link::after {
+  content: url(../images/icon-external-link.png);
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
 /* Sidebar
 --------------------------------------------- */
 .site-sidebar {

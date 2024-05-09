@@ -21,10 +21,10 @@
 
 /* Typography
 --------------------------------------------- */
-html {
+/* html {
   scroll-padding-top: 4.5rem;
   scroll-behavior: smooth;
-}
+} */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
@@ -102,7 +102,7 @@ a:active {
   padding: 0 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   position: relative;
   /* margin-left: -22rem; */
 }
@@ -115,7 +115,6 @@ a.site-name {
   display: block;
   margin: 0 auto;
   padding: 1rem;
-  
 }
 
 .site-navigation {
@@ -165,7 +164,6 @@ a.site-name {
 
   .site-navigation ul {
     justify-content: flex-end;
-   
   }
 
   .site-navigation a {
@@ -191,12 +189,13 @@ a.site-name {
 @media (min-width: 50em) {
   .site-main {
     display: flex;
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .col-right {
     position: sticky;
-     margin-top: 6rem;
+    align-self: flex-start;
+    margin-top: 6rem;
     top: 6rem;
   }
 
@@ -204,7 +203,7 @@ a.site-name {
     margin-top: 6rem;
     width: 70%;
   }
-
+}
 
 /* Right Column Content */
 .price {
